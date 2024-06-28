@@ -18,11 +18,11 @@ def main():
         maxval = num3
     
     #Set Median
-    if(num1!=minval & num1!=maxval):
+    if(num1!=minval and num1!=maxval):
         median = num1
-    elif(num2!=minval & num2!=maxval):
+    elif(num2!=minval and num2!=maxval):
         median = num2
-    elif(num3!=minval & num3!=maxval):
+    elif(num3!=minval and num3!=maxval):
         median = num3
     else:
         median = num1
