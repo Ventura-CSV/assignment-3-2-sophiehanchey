@@ -5,16 +5,16 @@ def main():
     
     #Find Minimum
     minval = num1
-    if(num2<num1):
+    if(num2<minval):
         minval = num2
-    elif(num3<num2):
+    if(num3<minval):
         minval = num3
     
     #Find Maximum
     maxval = num1
-    if(num2>num1):
+    if(num2>maxval):
         maxval = num2
-    elif(num3>num2):
+    if(num3>maxval):
         maxval = num3
     
     #Set Median
